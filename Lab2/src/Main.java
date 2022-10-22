@@ -342,16 +342,16 @@ public class Main {
 
     public static void main(String args[]){
         Graph graph = new Graph("./src/resources/distances.txt");
-        //graph.BFS("Мурманск","Одесса");
-        graph.DFS("Мурманск","Одесса");
+        //graph.BFS("Вильнюс","Одесса");
+        graph.DFS("Вильнюс","Одесса");
 //        Queue<String> queue = new ArrayDeque<>();
-//        graph.DLS("Мурманск","Одесса",4,queue);
+//        graph.DLS("Вильнюс","Одесса",4,queue);
 //        if(queue.isEmpty()) System.out.println("No path");
 //        while(!queue.isEmpty()) System.out.println(queue.remove());
-//        graph.DLS_loop("Мурманск","Одесса");
-        //graph.BDS("Мурманск","Одесса");
+//        graph.DLS_loop("Вильнюс","Одесса");
+        //graph.BDS("Вильнюс","Одесса");
         //graph.GDFS("Одесса","Одесса");
-        //graph.A_star("Мурманск","Одесса");
+        //graph.A_star("Вильнюс","Одесса");
 //        graph.heuristics("Одесса");
 //        for(String x: graph.h.keySet()){
 //            System.out.println(graph.h.get(x));
